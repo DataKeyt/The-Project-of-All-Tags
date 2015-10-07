@@ -13,22 +13,18 @@ header {
     text-combine-upright: digits 3;
 );
 }
-
 @font-face {
     font-family: handvetica;
     src: url("../fonts/Handvetica%20Neue%20Regular%20Trial.ttf");
 }
-
 @font-face {
     font-family: rankensten;
     src: url("../fonts/Mr.Jackson%20Rankenstein.ttf");
 }
-
 nav {
     font-size: large;
     float: left;
 }
-
 .fondile h1 {
     font-kerning: inital;
     font-family: rankensten;
@@ -69,7 +65,6 @@ nav {
     text-shadow: ThreeDLightShadow;
     text-underline-position: alphabetic;
 }
-
 body {
     background-image: url("http://images5.alphacoders.com/427/427405.jpg");
     background-attachment: scroll;
@@ -78,7 +73,6 @@ body {
     background-origin: content-box;
     white-space: normal;
 }
-
 .container {
     background: linear-gradient(
             to right,
@@ -87,27 +81,22 @@ body {
             #C00000 50%,
             #D80000 100%);
 }
-
 .creepy {
     float: right;
     color: whitesmoke;
     border-right-width: medium;
     border-color: white;
 }
-
 a {
     color: white;
 }
-
 a:hover {
     color: blue;
     font-weight: bold;
 }
-
 a:visited {
     text-decoration: none;
 }
-
 #list {
     float: right;
     color: white;
@@ -119,7 +108,6 @@ a:visited {
     image-rendering: -webkit-optimize-contrast;
     object-fit: fill;
 }
-
 .article {
     float: right;
     border: 2px solid;
@@ -143,18 +131,15 @@ a:visited {
     transform-style: flat;
     box-sizing: border-box;
 }
-
 .article p {
     font-family: sans-serif;
     font-size: large;
     color: white;
 }
-
 .map {
     float: left;
     padding-left: 5%;
 }
-
 .h2 {
     color: black;
     height: 120px;
@@ -183,7 +168,6 @@ a:visited {
     -webkit-animation-timing-function: ease; /* Chrome, Safari, Opera */
     animation-timing-function: ease;
 }
-
 .map img {
     float: right;
     border-top: double;
@@ -199,7 +183,6 @@ a:visited {
     object-position: absolute;
     mask-type: inherit;
 }
-
 .map p {
     font-size: large;
     color: white;
@@ -216,7 +199,6 @@ a:visited {
     box-decoration-break: slice;
     font-language-override: normal;
 }
-
 #table {
     border-image: url("../pics/borders.png") 15 stretch;
     border-image-repeat: stretch;
@@ -233,7 +215,6 @@ a:visited {
     table-layout: auto;
     cursor: all-scroll;
 }
-
 #kitsud {
     border-image-source: url("../pics/rekt.jpg");
     /*border-image-outset: 10px;
@@ -253,12 +234,10 @@ a:visited {
     clear: both;
     display: inline-block;
 }
-
 #kitsud dl {
     text-overflow: clip;
     resize: horizontal;
 }
-
 #form {
     color: white;
     position: absolute;
@@ -270,14 +249,12 @@ a:visited {
     margin-top: 80px;
     clear: both;
 }
-
 #whatisCanvas {
     clear: both;
     float: right;
     margin-top: 38px;
     margin-left: 20px;
 }
-
 .olli {
     float: right;
     clear: both;
@@ -299,7 +276,6 @@ a:visited {
     counter-reset;
     /*marginid liiguvad kellaosuti suunas*/
 }
-
 .kood {
     clear: both;
     text-align: center;
@@ -319,7 +295,6 @@ a:visited {
     transition-timing-function: ease;
     transition-delay: 2s;
 }
-
 #jalutan {
     clear: both;
     z-index: -1;
@@ -328,18 +303,15 @@ a:visited {
     margin-left: 250px;
     margin-top: 20px;
 }
-
 #pet_name {
     clear: both;
     margin-left: 50px;
 }
-
 #first {
     width: 800px;
     float: left;
     margin-top: auto;
 }
-
 .quote {
     font-style: italic;
     font-synthesis: style;
@@ -365,7 +337,6 @@ a:visited {
     float: right;
     margin-right: 65px;
 }
-
 #textarea {
     clear: both;
     border: 10px dotted black;
@@ -392,15 +363,12 @@ a:visited {
     order: inherit;
     margin-top: 20px;
 }
-
 h1:before {
     content: open-quote;
 }
-
 h1:after {
     content: close-quote;
 }
-
 @-webkit-keyframes mymove {
     from {
         right: 160px;
@@ -409,7 +377,6 @@ h1:after {
         right: 200px;
     }
 }
-
 .dog {
     position: absolute;
     -webkit-animation: mymove 3s i nfinite; /* Chrome, Safari, Opera */
@@ -424,7 +391,6 @@ h1:after {
     font-size: xx-large;
     margin-left: 50px;
 }
-
 .destroy {
     clear: both;
     color: white;
@@ -432,52 +398,43 @@ h1:after {
     margin-right: 200px;
     margin-bottom: 40px;
 }
-
 .form1 {
     clear: both;
     color: white;
     margin-left: 50px;
 }
-
 .miks {
     clear: both;
     color: white;
     margin-left: 50px;
 }
-
 #action {
     clear: both;
     color: white;
     margin-left: 500px;
 }
-
 .page {
     clear: both;
     color: white;
     margin-left: 500px;
 }
-
 figure {
     color: white;
 }
-
 figure img {
     border: 2px double black;
 }
-
 .tark {
     clear: both;
     color: white;
     padding-left: 40px;
 }
-
 #muu {
     float: right;
     margin-right: 500px;
     clear: both;
     color: white;
 }
-
 #skill {
     -webkit-columns: 100px 2;
     -webkit-column-count: 2;
@@ -494,22 +451,18 @@ figure img {
     float: left;
     margin-left: 60px;
 }
-
 .meter {
     clear: both;
 }
-
 q {
-    quotes: "«" "»";
+    quotes: "ï¿½" "ï¿½";
 }
-
 #audio_div {
     margin-right: 50px;
     clear: both;
     color: white;
     float: right;
 }
-
 #video {
     clear: both;
     color: white;
